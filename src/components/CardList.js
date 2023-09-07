@@ -2,9 +2,6 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
-    if (true) {
-        throw new Error("Nooooo!");
-    }
     const cardArray = robots.map((_, i) => {
         return (<Card 
             key={robots[i].id} 
